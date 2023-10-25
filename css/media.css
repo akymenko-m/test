@@ -1,0 +1,163 @@
+@media screen and (min-width: 768px) {
+
+    /* general styles */
+    .container {
+        max-width: 768px;
+    }
+
+    /* header */
+    .cover {
+        padding-left: calc(50% - (768px / 2));
+        padding-right: calc(50% - (768px / 2));
+    }
+
+    .header__menu-open {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+        margin-right: 50px;
+    }
+
+    /* mobile-app section */
+    .mobile-app__container {
+        flex-direction: row;
+    }
+
+    .mobile-app__button {
+        min-width: 179px;
+    }
+
+    /* tabs-menu section */
+    .tabs-menu ul {
+        padding: 0 100px;
+    }
+
+    /* feedback section */
+    .feedback__title {
+        width: 100%;
+    }
+
+    /* support section */
+    .support__item-name {
+        width: 32%;
+    }
+
+    /* bonuses section */
+    .bonuses__item {
+        flex-direction: row;
+        gap: 80px;
+    }
+
+    .bonuses-item__image {
+        min-width: 277px;
+        height: 277px;
+    }
+
+    /* app-mobile section */
+    .app-mobile__nav {
+        margin-top: 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+
+    /* general styles */
+    .container {
+        max-width: 1240px;
+    }
+
+    .main-content {
+        flex-grow: 1;
+    }
+
+    /* header */
+    .cover {
+        padding-left: calc(50% - (1240px / 2));
+        padding-right: calc(50% - (1240px / 2));
+    }
+
+    .header__language {
+        display: block;
+    }
+
+    .header__authentication {
+        display: flex;
+        gap: 16px;
+    }
+
+    /* tabs-menu section */
+    .tabs-menu ul {
+        padding: 0;
+        flex-wrap: nowrap;
+    }
+
+    /* feedback section */
+    .feedback__title {
+        font-size: 40px;
+    }
+
+    .feedback__player-container {
+        padding: 32px 20px 32px 32px;
+        flex-direction: row;
+    }
+
+    /* aside */
+    .aside {
+        display: block;
+        width: 295px;
+    }
+
+    /* bonuses section */
+    .bonuses__item {
+        padding: 32px 120px 32px 53px;
+        gap: 99px;
+    }
+
+    /* prime-bonus section */
+    .prime-bonus__background {
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .prime-bonus__image {
+        display: block;
+    }
+
+    /* app-mobile section */
+    .app-mobile__button {
+        padding: 17px 50px;
+        min-width: 267px;
+    }
+
+    /* prime-app section */
+    .prime-app__background {
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+    }
+
+    .prime-app__image {
+        display: block;
+        width: 50%;
+        position: relative;
+    }
+
+    .prime-app__image img:first-of-type {
+        position: relative;
+        z-index: 1;
+        left: 35%;
+    }
+
+    .prime-app__image img:last-of-type {
+        position: absolute;
+        top: 20%;
+        right: 0;
+    }
+}
